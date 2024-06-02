@@ -27,7 +27,7 @@ var Arr = function(){
   for(var i in arr){
     arr[i]=arr[i].charAt(0).toUpperCase()+arr[i].slice(1)
   }
-  console.log(arr)
+  return(arr)
 }
 Arr()
 
@@ -37,7 +37,7 @@ var arr = ["dog","bag","pup"];
   for(var i in arr){
     arr[i]=arr[i].charAt(0).toUpperCase()+arr[i].slice(1)
   }
-  console.log(arr)
+  return(arr)
 })()
 
 
@@ -51,7 +51,7 @@ var sumArr = function(){
   for(var i of arr){
     sum+=i
   }
-  console.log(sum)
+  return(sum)
 }
 sumArr()
 
@@ -62,7 +62,7 @@ var arr = [1,2,5,8,3];
   for(var i of arr){
     sum+=i
   }
-  console.log(sum)
+  return(sum)
 })()
 
 //Return all the prime numbers in an array
